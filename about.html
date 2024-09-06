@@ -3,28 +3,34 @@
 <head>
 	<title>Look at Josh Hutcherson in about</title>
 	<style>
-		/* Style the toolbar */
 		.toolbar {
-			background-color: #333;
+			background-color: #ef9cec;
 			padding: 10px;
-			text-align: center;
+			text-align: left;
 		}
 		
-		/* Style the toolbar links */
 		.toolbar a {
 			color: #fff;
 			text-decoration: none;
 			margin: 0 20px;
 		}
 		
-		/* Style the active link */
 		.toolbar a.active {
-			background-color: #555;
+			background-color: #ef9cec;
 			padding: 10px;
 			border-radius: 5px;
 		}
+
+		.toolbar a:hover {
+  			background-color: #666; 
+  			color: #fff;
+		}
 		
-		/* Style the horizontal bar */
+        .toolbar img {
+            height: 40px; 
+            margin-right: 400px; 
+        }
+
 		hr {
 			border: 1px solid #ccc;
 			height: 1px;
@@ -33,18 +39,17 @@
 	</style>
 </head>
 <body>
-	<!-- Create the toolbar -->
 	<div class="toolbar">
-		<a href="index.html" class="active">Home</a>
+        <img src="joshy.png" alt="Toolbar Image">
+        <a href="index.html" class="active">Home</a>
 		<a href="about.html">About</a>
+		<a>Help</a>
 	</div>
 	
-	<!-- Create the horizontal bar -->
 	<hr />
 	
-	<!-- Create the main content area -->
 	<div>
-		<a href="https://youtu.be/QwLvrnlfdNo?si=eJehelCiLvEzMufr"><img src="josh.png" alt="Italian Trulli"></a>
+		<a href="https://youtu.be/QwLvrnlfdNo?si=eJehelCiLvEzMufr"><img src="josh.png"></a>
 	</div>
 </body>
 </html>
