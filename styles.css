@@ -1,0 +1,33 @@
+.toolbar {
+    background-color: #ef9cec;
+    padding: 10px;
+    text-align: left;
+}
+
+.toolbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.toolbar a.active {
+    background-color: #ef9cec;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.toolbar a:hover {
+      background-color: #666; 
+      color: #fff;
+}
+
+.toolbar img {
+    height: 40px; 
+    margin-right: 400px; 
+}
+
+hr {
+    border: 1px solid #ccc;
+    height: 1px;
+    margin: 20px 0;
+}
