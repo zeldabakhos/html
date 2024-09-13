@@ -5,18 +5,69 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<div class="toolbar">
-        <img src="joshy.png" alt="Toolbar Image">
-        <a href="index.html" class="active">Home</a>
-		<a href="about.html">About</a>
-		<a>Help</a>
-	</div>
-	
-	<hr />
-	
+	<header class="header">
+		<nav class="container">
+			<a class="header_logo" href="/">
+				<img src="joshy.png" alt="logo du site" />
+			</a>
+			<button class="header__toggle-btn">
+				<span></span><span></span><span></span>
+			</button>
+			<ul>
+				<li>
+					<a class="active" href="/">Home</a>
+				</li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
 	<div>
-		<h1>Welcome to our website!</h1>
 		<p>Look at Josh Hutcherson in about. I would advise to press on the picture.</p>
 	</div>
+
+	<script src="script.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features Section</title>
+</head>
+
+    <div class="container">
+        <h1>Features</h1>
+        <p>Josh's different projects</p>
+
+        <div class="features">
+            <div class="feature-box">
+                <div class="icon">
+                    <img src="https://via.placeholder.com/50" alt="icon1">
+                </div>
+                <h3>Hunger Games</h3>
+                <p>He played Peeta Mellark in 4 incredible movies. You should check them out if you didn't</p>
+            </div>
+            <div class="feature-box">
+                <div class="icon">
+                    <img src="https://via.placeholder.com/50" alt="icon2">
+                </div>
+                <h3>Hunger Games</h3>
+                <p>He played Peeta Mellark in 4 incredible movies. You should check them out if you didn't</p>
+            </div>
+            <div class="feature-box">
+                <div class="icon">
+                    <img src="https://via.placeholder.com/50" alt="icon3">
+                </div>
+                <h3>Hunger Games</h3>
+                <p>He played Peeta Mellark in 4 incredible movies. You should check them out if you didn't</p>
+            </div>
+            <div class="feature-box">
+                <div class="icon">
+                    <img src="https://via.placeholder.com/50" alt="icon4">
+                </div>
+                <h3>Hunger Games</h3>
+                <p>He played Peeta Mellark in 4 incredible movies. You should check them out if you didn't</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
