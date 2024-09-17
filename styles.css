@@ -23,7 +23,9 @@ li {
 	padding: 3em;
 	min-height: 70vh;
 }
-
+.image_style{
+	width: unset !important;
+}
 .about h2,
 .contact h2 {
 	font-size: 3em;
@@ -69,4 +71,65 @@ form input {
 		max-width: 50%;
 		padding-top: 0;
 	}
+}
+
+.centered-text {
+	width: 65%;               
+	margin-left: 18%;         
+	text-align: center;
+	font-size: 1.2em;
+	}
+
+/* Features section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.feature-box {
+    background-color: #f4f4f4; /* Light background for the cube */
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px; /* Set a max width to prevent boxes from being too large */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for the cube effect */
+    transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-10px); /* Hover effect to lift the box */
+}
+
+.feature-box .icon img {
+    width: 50px; /* Adjust icon size */
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.feature-box h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+.feature-box p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-box {
+        margin-bottom: 20px;
+    }
 }
